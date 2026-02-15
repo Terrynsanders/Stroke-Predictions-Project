@@ -21,7 +21,7 @@ select
 coalesce(work_type, 'not listed') as jobs,
 count(*) as heart_disease_rates
 FROM stroke_data
-WHERE heart_disease is 1
+WHERE heart_disease = 1
 GROUP by jobs
 ORDER by heart_disease_rates DESC;
 
@@ -31,7 +31,7 @@ select
 coalesce(smoking_status, 'not listed') as smoker,
 count(*) as heart_disease_rates
 FROM stroke_data
-WHERE heart_disease is 1
+WHERE heart_disease = 1
 GROUP by smoker
 ORDER by heart_disease_rates DESC;
 
@@ -41,7 +41,7 @@ SELECT
 gender,
 avg(bmi) as avg_bmi
 FROM stroke_data
-WHERE hypertension is 1
+WHERE hypertension = 1
 group by gender;
 
 -- Determine total counts of each condition found in men and women --
