@@ -37,7 +37,7 @@ Key Variables:
 
 ## Key Questions Explored
 
--- 1. What are the average glucose levels for men vs. women?
+1. What are the average glucose levels for men vs. women?
 -- 2. What is the average age of stroke victims by gender?
 -- 3. Which employment types show the highest counts of heart disease?
 -- 4. How does smoking status relate to heart disease prevalence?
