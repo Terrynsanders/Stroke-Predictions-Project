@@ -4,7 +4,7 @@ This project analyzes publicly available stroke dataset records using SQL. Queri
 # Stroke Risk Analysis (SQL Project)
 
 ## Project Overview
-/*
+
 This project analyzes patient-level stroke data using SQL to evaluate
 risk factor distribution, demographic trends, and condition prevalence.
 
